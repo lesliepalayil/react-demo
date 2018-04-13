@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.opm-flex {
+  display: flex;
+  flex-direction: row
+}
+
+.opm-flex-item {
+  flex: 1 0 33%;
+  border: 2px solid #CEB212;
+  border-left: none;
+}
+.opm-flex-item:first-child {
+  border-left: 2px solid #CEB212;
+}
+
+.opm-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.opm-list-item {
+  padding: 3px;
+  border-bottom: 1px solid #ccc;
+  background: #F8F8F7
+}
+
+.opm-list-item:last-child{
+  border-bottom: none;
+}
+
+.opm-list-item:hover{
+  background: #60CBF5
+}
